@@ -1,7 +1,7 @@
-resource "aws_iam_group" "developers" {
-  name = "developer"
+resource "aws_iam_group" "ansiblegroup" {
+  name = "ansiblegroup"
 
 }
-resource "aws_iam_user" "lb" {
-  name = "Samett"
+resource "aws_iam_user" "ansible" {
+  name = "ansible"
 }
